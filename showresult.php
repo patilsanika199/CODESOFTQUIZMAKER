@@ -3,7 +3,7 @@
 ?>
 <section>
 		<div class="middle-que">
-			<form action="getresult.php" method="POST" name = "quiz">
+			<form action="includefrd/getresult.php" method="POST" name = "quiz">
 				<center><button type="submit" name="submit" value="submit">Show Result</button></center>
 			</form>
 		</div>
