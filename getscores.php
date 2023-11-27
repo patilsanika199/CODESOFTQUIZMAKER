@@ -1,5 +1,6 @@
 <?php
-			session_start();
+	session_start();
+			
 			include 'dbh.inc.php';
 			$showid = $_SESSION['last_id1'];
 		
@@ -15,8 +16,7 @@
 				{	
 					$_SESSION['frdname']=$row['fname'];
 					$_SESSION['frdresult']=$row['result'];
-					
-				
+					echo "dsad";
 
 					echo $_SESSION['frdname']."&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;";
 					echo $_SESSION['frdresult']."<br>";
